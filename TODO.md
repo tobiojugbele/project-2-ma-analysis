@@ -1,4 +1,3 @@
-# Next Session Tasks: Day 3
-- [ ] Ingest the newly cleaned Project 2 CSV file outputs.
-- [ ] Build structural merge joins matching Contract-by-County enrollment tables with Ratebook data.
-- [ ] Resolve any remaining geographical crosswalk gaps (FIPS versus SSA code adjustments).
+# Next Session Tasks: Day 4
+- [ ] Connect Power BI Desktop directly to data/medicare.db and data/gv_puf.db.
+- [ ] Build structural DAX dimensions to compute aggregate performance metrics.
