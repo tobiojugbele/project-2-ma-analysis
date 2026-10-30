@@ -13,3 +13,7 @@
   * **2027 Star Performance Ratings** map directly to **CY 2027 County Ratebook Benchmarks**.
   * **2026/2025 Penetration Records** trace the current-to-prior base enrollment metrics.
 * **Why:** Star Ratings and Ratebooks are forward-looking tables published ahead of the operational tracking year. Staggering them this way aligns a plan's quality ratings with the actual payment benchmarks it received for that performance period.
+
+### 2026-10-30: Automated Pytest Verification & Testing
+* **Decision:** Implemented automated pytest suites locally to perform health verification on dataset bounds.
+* **Why:** Automating quality test runners protects downstream mathematical aggregates from quiet boundary breaks during data integration phases.
