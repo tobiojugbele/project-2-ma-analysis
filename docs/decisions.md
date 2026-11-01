@@ -17,3 +17,7 @@
 ### 2026-10-30: Automated Pytest Verification & Testing
 * **Decision:** Implemented automated pytest suites locally to perform health verification on dataset bounds.
 * **Why:** Automating quality test runners protects downstream mathematical aggregates from quiet boundary breaks during data integration phases.
+
+### 2026-10-31: Analytical SQL Processing & Export Foundations
+* **Decision:** Encapsulated window matrix functions and enrollment-weighted calculations right into the database layout layer using script runners.
+* **Why:** Calculating weighted averages directly in SQL keeps data clean and prevents simple mathematical errors when reporting metrics across plan volumes.
