@@ -25,3 +25,7 @@
 ### 2026-11-01: Multiplicative Cost Splits & HHI Concentration Modeling
 * **Decision:** Implemented a log-linear multiplicative trend model to isolate spending vectors, and coded an inner window-partition function to calculate HHI values by county.
 * **Why:** The trend split prevents volume growth from masking unit price shifts, and HHI tracking turns vague competition discussions into an objective, mathematical metric.
+
+### 2026-11-02: Actuarial Credibility Shrinkage & Cluster-Robust Diagnostics
+* **Decision:** Applied a structural Z credibility model toward the national mean for low-volume county entries and implemented cluster-robust standard errors grouped by county FIPS.
+* **Why:** Credibility weighting ensures small samples do not introduce random data skewing, while cluster adjustments correct for spatial correlation errors within geography sectors.
