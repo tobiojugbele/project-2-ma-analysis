@@ -21,3 +21,7 @@
 ### 2026-10-31: Analytical SQL Processing & Export Foundations
 * **Decision:** Encapsulated window matrix functions and enrollment-weighted calculations right into the database layout layer using script runners.
 * **Why:** Calculating weighted averages directly in SQL keeps data clean and prevents simple mathematical errors when reporting metrics across plan volumes.
+
+### 2026-11-01: Multiplicative Cost Splits & HHI Concentration Modeling
+* **Decision:** Implemented a log-linear multiplicative trend model to isolate spending vectors, and coded an inner window-partition function to calculate HHI values by county.
+* **Why:** The trend split prevents volume growth from masking unit price shifts, and HHI tracking turns vague competition discussions into an objective, mathematical metric.
