@@ -1,3 +1,3 @@
-# Next Session Tasks: Day 9 Launchpad
-- [ ] Connect Power BI Desktop to import q4_regional_segmentation.csv and q6_confounding_check.csv.
-- [ ] Implement executive dashboard tiles detailing regional penetration discrepancies.
+# Next Session Tasks: Day 10 Launchpad
+- [ ] Write advanced calculated DAX measures to index regional spending against national baselines.
+- [ ] Build conditional formatting color alerts into the county HHI tracking grids.
