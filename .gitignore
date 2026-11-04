@@ -8,3 +8,5 @@ data/raw/*
 *.csv
 *.xlsx
 *.pbix.tmp
+data/processed/
+data/medicare.db
