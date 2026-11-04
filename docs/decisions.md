@@ -1,31 +1,4 @@
-# Project 2 Analytics Governance Registry
+# Project Decisions Journal
 
-### 1. Processing Granularity Boundary
-* **Decision:** The transformation runtime executes analysis at the **Contract-Level** granularity.
-* **Why:** High-level county summaries mask the variance in star performance across plan options. Aggregating calculations at the contract identifier level preserves the accuracy of performance ranges within a single geographic region.
-
-### 2. Cell Suppression Security Limits (Values Under 11)
-* **Decision:** CMS cell counts showing enrollment values between 1 and 10 are completely masked and flagged with a distinct numerical proxy value of `NaN`.
-* **Why:** This mirrors federal data privacy rules to protect patient anonymity in low-volume areas.
-
-### 3. Analytics Horizon Year Mapping Matrix
-* **Decision:** Datasets are joined according to the following staggered release calendar pairings:
-  * **2027 Star Performance Ratings** map directly to **CY 2027 County Ratebook Benchmarks**.
-  * **2026/2025 Penetration Records** trace the current-to-prior base enrollment metrics.
-* **Why:** Star Ratings and Ratebooks are forward-looking tables published ahead of the operational tracking year. Staggering them this way aligns a plan's quality ratings with the actual payment benchmarks it received for that performance period.
-
-### 2026-10-30: Automated Pytest Verification & Testing
-* **Decision:** Implemented automated pytest suites locally to perform health verification on dataset bounds.
-* **Why:** Automating quality test runners protects downstream mathematical aggregates from quiet boundary breaks during data integration phases.
-
-### 2026-10-31: Analytical SQL Processing & Export Foundations
-* **Decision:** Encapsulated window matrix functions and enrollment-weighted calculations right into the database layout layer using script runners.
-* **Why:** Calculating weighted averages directly in SQL keeps data clean and prevents simple mathematical errors when reporting metrics across plan volumes.
-
-### 2026-11-01: Multiplicative Cost Splits & HHI Concentration Modeling
-* **Decision:** Implemented a log-linear multiplicative trend model to isolate spending vectors, and coded an inner window-partition function to calculate HHI values by county.
-* **Why:** The trend split prevents volume growth from masking unit price shifts, and HHI tracking turns vague competition discussions into an objective, mathematical metric.
-
-### 2026-11-02: Actuarial Credibility Shrinkage & Cluster-Robust Diagnostics
-* **Decision:** Applied a structural Z credibility model toward the national mean for low-volume county entries and implemented cluster-robust standard errors grouped by county FIPS.
-* **Why:** Credibility weighting ensures small samples do not introduce random data skewing, while cluster adjustments correct for spatial correlation errors within geography sectors.
+* **Decision:** Segmented New York state layers into structural Metro/Upstate buckets, and isolated the risk-to-quality regression matrix inside a single insurer contract line.
+* **Why:** Model Segmentation isolates downstate funding variations, and the confounding check tests if our aggregate findings are driven by a true systemic driver or simply skewed by insurer size differences.
