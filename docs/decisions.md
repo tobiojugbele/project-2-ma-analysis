@@ -10,3 +10,7 @@
 ### 2026-11-04: Business Intelligence Frontend Semantic Layering
 * **Decision:** Built out executive report layouts in Power BI utilizing takeaway titles, filled maps, and insurer-isolated scatter plots.
 * **Why:** Replaces plain descriptive labels with clear conclusions, allowing non-technical stakeholders to explore the data and see how insurer size confounds overall risk trends.
+
+### 2026-11-05: Quality Bonus Payment (QBP) Financial Modeling
+* **Decision:** Built a multi-scenario revenue-at-risk simulation engine (Low 3%, Base 5%, High 7%) based on 2027 CMS Stars and 2027 County Ratebooks. Incorporated a +0.5 star parameter shift slider.
+* **Why:** Translates operational quality scores directly into financial impact metrics, mimicking how managed care finance teams model bid risk and margin exposure.

@@ -1,3 +1,3 @@
-# Next Session Tasks: Day 10 Launchpad
-- [ ] Write advanced calculated DAX measures to index regional spending against national baselines.
-- [ ] Build conditional formatting color alerts into the county HHI tracking grids.
+# Next Session Tasks: Day 11 Launchpad
+- [ ] Review the exported dashboard screenshots in docs/dashboard/.
+- [ ] Draft the comprehensive Project 1 README 'Actuarial Lens' summary section.
