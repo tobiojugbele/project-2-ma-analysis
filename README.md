@@ -33,3 +33,9 @@ git clone https://github.com
 cd project-2-ma-analysis
 make install && make etl && make run && make regression
 ```
+
+---
+
+## 🏛️ Relationship to Project 1 (The Actuarial Value Chain)
+* **The Structural Connection:** This project links directly to Project 1 by showing how historical Fee-For-Service (FFS) medical costs shape public sector benchmarks, which in turn drive private sector premium payouts.
+* **The Divergence Mechanic:** While Project 1 models baseline experience costs, our cross-analysis shows that administrative funding benchmarks track slightly higher (+$600 to +$700 per member) across target New York counties. This variation is driven by regulatory funding floors and quality bonus enhancements, proving that policy design changes can skew pure cost calculations.
