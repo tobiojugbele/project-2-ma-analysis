@@ -1,3 +1,3 @@
-# Next Session Tasks: Day 11 Launchpad
-- [ ] Review the exported dashboard screenshots in docs/dashboard/.
-- [ ] Draft the comprehensive Project 1 README 'Actuarial Lens' summary section.
+# Next Session Tasks: Day 12 Launchpad
+- [ ] Complete the final Project 2 README polish.
+- [ ] Prep verbal walk-through notes for case study interviews.
